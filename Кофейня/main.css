@@ -66,13 +66,17 @@ main {
 .price_list {
 	width: 80%;
 	margin: 10px auto;
-	display:flex;
-	/* justify-content: center; */
-	flex-wrap: wrap;
+}
+
+.price_items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	width: 100%;
 }
 
 .price_item {
-	width: 400px;
+	width: 250px;
 	padding: 10px;;
 	text-align: center;
 	border: 1px solid #A7A7A7;
