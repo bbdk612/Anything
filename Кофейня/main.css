@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rubik:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
 
 body {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: "Raleway", sans-serif;
 	/*overflow-y: none;*/
 }
 
@@ -19,27 +21,31 @@ header {
 	border-bottom: 1px solid #A7A7A7;
 }
 
-.logo > h1 {
+.logo>h1 {
 	margin: 0;
 	padding: 5px
 }
 
 main {
 	padding: 15px;
-	width: 90%;
+	width: 80%;
 	/*height: 5000px;*/
 }
 
 
-.image__coffe {
+.main__image {
 	background-image: url(img/kofe-s-koritsey.jpg);
 	filter: blur(2px);
 	height: 50vh;
 	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.SayHi {
+	padding-top: 15px;
 }
 
 .white {
@@ -77,12 +83,12 @@ main {
 
 .price_item {
 	width: 250px;
-	padding: 10px;;
+	padding: 10px;
 	text-align: center;
 	border: 1px solid #A7A7A7;
 	border-radius: 10px;
-	margin-right: 10px;
-	margin-bottom: 15px;
+	/* margin-right: 10px; */
+	/* margin-bottom: 15px; */
 }
 
 .poster {
@@ -93,4 +99,3 @@ main {
 .price {
 	text-decoration: underline;
 }
-
